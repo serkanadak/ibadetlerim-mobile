@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <title>İbadetlerim</title>
+
+    <!-- ANA EKRANA EKLEME (PWA).
+         Veriler tarayıcıda tutuluyor ve tarayıcı bunu "silinebilir" sayarsa
+         temizleyebiliyor: iOS Safari, siteye 7 gün girilmezse script ile
+         yazılmış tüm veriyi siler. Ana ekrana eklenmiş (standalone) bir web
+         uygulamasının verisi bu temizlikten muaf tutulur ve kalıcı depolama
+         izni de genellikle verilir. Bu etiketler o yüzden burada. -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <meta name="theme-color" content="#e9efe3" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="İbadetlerim" />
+    <meta name="application-name" content="İbadetlerim" />
+    <link rel="apple-touch-icon" href="icons/icon-180.png" />
+    <meta name="description" content="Günlük, yıllık ve ömürlük ibadet takibi; kaza namazı ve istatistikler." />
+
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        overflow: hidden;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <noscript>Bu uygulamayı çalıştırmak için JavaScript'i etkinleştirmelisiniz.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
